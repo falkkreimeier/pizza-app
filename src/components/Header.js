@@ -1,7 +1,6 @@
 import styled from "styled-components/macro";
 import { BsList as Menu } from "react-icons/bs";
 import { IconContext } from "react-icons";
-import { withTheme } from "styled-components";
 
 function Header() {
   return (
@@ -10,7 +9,6 @@ function Header() {
       <IconPosition>
         <IconContext.Provider
           value={{
-            color: withTheme,
             size: "30px",
           }}
         >
