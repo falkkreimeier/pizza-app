@@ -9,7 +9,6 @@ const Wrapper = styled.footer`
   background-color: black;
   color: white;
   margin: 0 auto;
-  border: 1px solid white;
 `;
 
 export default Footer;

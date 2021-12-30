@@ -21,7 +21,6 @@ const Wrapper = styled.section`
   margin: 0 auto;
   height: var(--app-height);
   background-color: yellow;
-  width: var(--app-width);
 `;
 
 export default App;

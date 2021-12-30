@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStles = createGlobalStyle`
 
 :root {
-    --app-width: 352px;
+    --app-width: 375px;
     --app-height: 605px;
 }
 
@@ -14,6 +14,7 @@ html {
 
 * {
     box-sizing: inherit;
+    margin: 0;
 }
 
 body {

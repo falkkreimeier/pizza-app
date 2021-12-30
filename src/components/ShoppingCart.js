@@ -10,7 +10,12 @@ function ShoppingCart() {
   );
 }
 
-const Wrapper = styled.section``;
+const Wrapper = styled.section`
+  width: var(--app-width);
+  margin: 0 auto;
+  background-color: white;
+  height: 100px;
+`;
 
 const IconShoppingCart = styled.img``;
 

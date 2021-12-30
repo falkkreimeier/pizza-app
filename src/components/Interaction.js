@@ -10,7 +10,12 @@ function Interaction() {
   );
 }
 
-const Wrapper = styled.section``;
+const Wrapper = styled.section`
+  width: var(--app-width);
+  margin: 0 auto;
+  background-color: black;
+  height: 150px;
+`;
 
 const IconPhone = styled.img``;
 
