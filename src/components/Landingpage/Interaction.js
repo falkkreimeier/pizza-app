@@ -45,11 +45,11 @@ const Wrapper = styled.section`
   width: var(--app-width);
   margin: 0 auto;
   background-color: black;
-  height: 150px;
+  height: 120px;
 `;
 
 const Iconstyle = styled.div`
-  margin: 35px 25px;
+  margin: 30px 25px;
   padding: 15px;
   position: relative;
   left: 10px;

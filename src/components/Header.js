@@ -2,7 +2,7 @@ import styled from "styled-components/macro";
 import { BsList as Menu } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
-function Header() {
+function Header({ onClickonShoppingCart }) {
   return (
     <Wrapper>
       <Text>Pizzaria Name</Text>
@@ -12,7 +12,7 @@ function Header() {
             size: "30px",
           }}
         >
-          <Menu />
+          <Menu onClick={onClickonShoppingCart(true)} />
         </IconContext.Provider>
       </IconPosition>
     </Wrapper>

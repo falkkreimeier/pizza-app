@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import Pizza from "./Assets/Pizza-Bild.jpeg";
+import Pizza from "../Assets/Pizza-Bild.jpeg";
 
 function Logo() {
   return (
