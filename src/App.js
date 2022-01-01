@@ -11,14 +11,20 @@ function App() {
 
   function ClickOnShoppingCart() {
     setShowOrderingOverview(true);
+    console.log("clicked");
   }
 
   return (
     <Wrapper>
-      <Header onClickonShoppingCart={ClickOnShoppingCart} />
+      <Header />
       <Main>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route
+            path="/"
+            element={
+              <LandingPage OnShoppingCartButtonClick={ClickOnShoppingCart} />
+            }
+          />
           <Route
             path="/karte"
             element={

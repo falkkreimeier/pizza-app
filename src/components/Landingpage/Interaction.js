@@ -4,7 +4,7 @@ import { BsCart as Cart } from "react-icons/bs";
 import { BsDoorClosed as Door } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
-function Interaction() {
+function Interaction({ OnShoppingCartButtonClick }) {
   return (
     <Wrapper>
       <Iconstyle>
@@ -24,7 +24,7 @@ function Interaction() {
             size: "30px",
           }}
         >
-          <Cart />
+          <Cart onClick={OnShoppingCartButtonClick} />
         </IconContext.Provider>
       </Iconstyle>
       <Iconstyle>
