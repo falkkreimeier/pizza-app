@@ -5,32 +5,41 @@ import LandingPage from "./components/Landingpage/LandingPage";
 import OrderingOverview from "./components/Ordering/OrderingOverview";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import Appetizers from "./components/Ordering/Appetizers";
+import Salads from "./components/Ordering/Salads";
 
 function App() {
   const [showOrderingOverview, setShowOrderingOverview] = useState(false);
 
   function ClickOnShoppingCart() {
     setShowOrderingOverview(true);
-    console.log("clicked");
   }
+
+  // const current = window.location.pathname;
+  // this.props.navigate.reaplace("/reload");
+  // setTimeout(() => {
+  //   this.props.navigate.replace(current);
+  // });
+
+  // window.onload = function () {
+  //   if (!window.location.hash) {
+  //     window.location = window.location + "#loaded";
+  //     window.location.reload();
+  //   }
+  // };
+
+  // const navigate = useNavigate();
+  // navigate.go(0);
 
   return (
     <Wrapper>
       <Header />
       <Main>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <LandingPage OnShoppingCartButtonClick={ClickOnShoppingCart} />
-            }
-          />
-          <Route
-            path="/karte"
-            element={
-              <OrderingOverview showOrderingOverview={showOrderingOverview} />
-            }
-          />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/karte" element={<OrderingOverview />} />
+          <Route path="/vorspeisen" element={<Appetizers />} />
+          <Route path="/salate" element={<Salads />} />
         </Routes>
       </Main>
       <Footer />

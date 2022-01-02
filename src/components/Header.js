@@ -1,10 +1,23 @@
 import styled from "styled-components/macro";
 import { BsList as Menu } from "react-icons/bs";
 import { IconContext } from "react-icons";
+import { BsFillArrowLeftCircleFill as BackArrow } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <Wrapper>
+      {window.location.pathname !== "/" ? (
+        <Link to="/">
+          <BackArrowPosition>
+            <IconContext.Provider value={{ color: "white", size: "30px" }}>
+              <BackArrow />
+            </IconContext.Provider>
+          </BackArrowPosition>
+        </Link>
+      ) : (
+        ""
+      )}
       <Text>Pizzaria Name</Text>
       <IconPosition>
         <IconContext.Provider
@@ -20,6 +33,9 @@ function Header() {
 }
 
 const Wrapper = styled.header`
+  display: flex;
+
+  padding: 15px;
   width: var(--app-width);
   background-color: black;
   margin: 0 auto;
@@ -27,14 +43,19 @@ const Wrapper = styled.header`
 `;
 
 const Text = styled.p`
-  padding-top: 20px;
-  text-align: center;
+  position: relative;
+  top: 8px;
+  left: 95px;
 `;
 
 const IconPosition = styled.div`
   position: relative;
-  left: 320px;
-  bottom: 20px;
+  left: 180px;
+`;
+
+const BackArrowPosition = styled.div`
+  position: relative;
+  left: 20px;
 `;
 
 export default Header;

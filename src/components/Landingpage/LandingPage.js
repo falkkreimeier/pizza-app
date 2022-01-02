@@ -3,11 +3,11 @@ import Logo from "./Logo";
 import Interaction from "./Interaction";
 import ShoppingCart from "./ShoppingCart";
 
-function LandingPage({ OnShoppingCartButtonClick }) {
+function LandingPage() {
   return (
     <Wrapper>
       <Logo />
-      <Interaction OnShoppingCartButtonClick={OnShoppingCartButtonClick} />
+      <Interaction />
       <ShoppingCart />
     </Wrapper>
   );
