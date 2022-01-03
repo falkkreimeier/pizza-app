@@ -7,12 +7,8 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <Wrapper>
-      {window.location.pathname === "/pizza" ||
-      "/pasta" ||
-      "vorspeisen" ||
-      "/salads" ||
-      "dessert" ||
-      "drinks" ? (
+      {window.location.pathname !== "/" &&
+      window.location.pathname !== "/karte" ? (
         <Link to="/karte">
           <BackArrowPosition>
             <IconContext.Provider value={{ color: "white", size: "30px" }}>
