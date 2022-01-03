@@ -8,6 +8,9 @@ import Pasta from "./components/Ordering/Pasta";
 import Dessert from "./components/Ordering/Dessert";
 import Drinks from "./components/Ordering/Drinks";
 import Layout from "./components/Layout";
+import Header from "./components/Header";
+import HeaderToCard from "./components/HeaderToCard";
+import HeaderToMain from "./components/HeaderToMain";
 
 function App() {
   return (

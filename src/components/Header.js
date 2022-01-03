@@ -32,12 +32,12 @@ const Wrapper = styled.header`
 const Text = styled.p`
   position: relative;
   top: 8px;
-  left: 95px;
+  left: 125px;
 `;
 
 const IconPosition = styled.div`
   position: relative;
-  left: 180px;
+  left: 210px;
 `;
 
 export default Header;

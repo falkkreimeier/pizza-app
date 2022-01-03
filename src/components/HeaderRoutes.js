@@ -10,7 +10,7 @@ function HeaderRoutes() {
       <Routes>
         <Route path="/" element={<Header />} />
         <Route path="/karte" element={<HeaderToMain />} />
-        <Route path="/vorspeisen" element={<HeaderToCard />} />
+        <Route path="/*" element={<HeaderToCard />} />
       </Routes>
     </Wrapper>
   );
