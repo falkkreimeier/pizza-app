@@ -1,29 +1,28 @@
 import styled from "styled-components/macro";
-import Pizza from "../Assets/Pizza-menue.jpeg";
-import { Link } from "react-router-dom";
+import PizzaImg from "../Assets/Pizza-menue.jpeg";
 
 function Appetizers() {
   return (
     <Wrapper>
-      <Image src={Pizza} alt="" />
-      <LinkContainer>
-        <NavLink to="">Appetizer1</NavLink>
-      </LinkContainer>
-      <LinkContainer>
-        <NavLink to="">Appetizer2</NavLink>
-      </LinkContainer>
-      <LinkContainer>
-        <NavLink to="">Appetizer3</NavLink>
-      </LinkContainer>
-      <LinkContainer>
-        <NavLink to="">Appetizer4</NavLink>
-      </LinkContainer>
-      <LinkContainer>
-        <NavLink to="">Appetizer5</NavLink>
-      </LinkContainer>
-      <LinkContainer>
-        <NavLink to="">Drinks</NavLink>
-      </LinkContainer>
+      <Image src={PizzaImg} alt="" />
+      <TextContainer>
+        <Text>Vorspeise</Text>
+      </TextContainer>
+      <TextContainer>
+        <Text>Vorspeise</Text>
+      </TextContainer>
+      <TextContainer>
+        <Text>Vorspeise</Text>
+      </TextContainer>
+      <TextContainer>
+        <Text>Vorspeise</Text>
+      </TextContainer>
+      <TextContainer>
+        <Text>Vorspeise</Text>
+      </TextContainer>
+      <TextContainer>
+        <Text>Vorspeise</Text>
+      </TextContainer>
     </Wrapper>
   );
 }
@@ -36,7 +35,7 @@ const Image = styled.img`
   object-fit: cover;
 `;
 
-const LinkContainer = styled.div`
+const TextContainer = styled.div`
   margin: 0 auto;
   width: 95%;
   border-radius: 5px;
@@ -45,9 +44,8 @@ const LinkContainer = styled.div`
   padding: 15px;
 `;
 
-const NavLink = styled(Link)`
+const Text = styled.p`
   text-decoration: none;
   color: black;
 `;
-
 export default Appetizers;

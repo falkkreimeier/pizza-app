@@ -13,16 +13,16 @@ function OrderingOverview() {
         <NavLink to="/salate">Salads</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="">Pizza</NavLink>
+        <NavLink to="/pizza">Pizza</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="">Pasta</NavLink>
+        <NavLink to="/pasta">Pasta</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="">Dessert</NavLink>
+        <NavLink to="/nachtisch">Nachtisch</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="">Drinks</NavLink>
+        <NavLink to="/getraenke">Getränke</NavLink>
       </LinkContainer>
     </Wrapper>
   );

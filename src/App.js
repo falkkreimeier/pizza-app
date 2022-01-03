@@ -3,18 +3,15 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LandingPage from "./components/Landingpage/LandingPage";
 import OrderingOverview from "./components/Ordering/OrderingOverview";
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Appetizers from "./components/Ordering/Appetizers";
 import Salads from "./components/Ordering/Salads";
+import Pizza from "./components/Ordering/Pizza";
+import Pasta from "./components/Ordering/Pasta";
+import Dessert from "./components/Ordering/Dessert";
+import Drinks from "./components/Ordering/Drinks";
 
 function App() {
-  const [showOrderingOverview, setShowOrderingOverview] = useState(false);
-
-  function ClickOnShoppingCart() {
-    setShowOrderingOverview(true);
-  }
-
   // const current = window.location.pathname;
   // this.props.navigate.reaplace("/reload");
   // setTimeout(() => {
@@ -40,6 +37,10 @@ function App() {
           <Route path="/karte" element={<OrderingOverview />} />
           <Route path="/vorspeisen" element={<Appetizers />} />
           <Route path="/salate" element={<Salads />} />
+          <Route path="/pizza" element={<Pizza />} />
+          <Route path="/pasta" element={<Pasta />} />
+          <Route path="/nachtisch" element={<Dessert />} />
+          <Route path="/getraenke" element={<Drinks />} />
         </Routes>
       </Main>
       <Footer />

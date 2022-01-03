@@ -7,8 +7,13 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <Wrapper>
-      {window.location.pathname !== "/" ? (
-        <Link to="/">
+      {window.location.pathname === "/pizza" ||
+      "/pasta" ||
+      "vorspeisen" ||
+      "/salads" ||
+      "dessert" ||
+      "drinks" ? (
+        <Link to="/karte">
           <BackArrowPosition>
             <IconContext.Provider value={{ color: "white", size: "30px" }}>
               <BackArrow />
@@ -18,6 +23,7 @@ function Header() {
       ) : (
         ""
       )}
+
       <Text>Pizzaria Name</Text>
       <IconPosition>
         <IconContext.Provider
