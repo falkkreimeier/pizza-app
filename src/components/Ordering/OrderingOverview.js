@@ -7,10 +7,10 @@ function OrderingOverview() {
     <Wrapper>
       <Image src={Pizza} alt="" />
       <LinkContainer>
-        <NavLink to="/vorspeisen">Appetizers</NavLink>
+        <NavLink to="/vorspeisen">Vorspeisen</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="/salate">Salads</NavLink>
+        <NavLink to="/salate">Salate</NavLink>
       </LinkContainer>
       <LinkContainer>
         <NavLink to="/pizza">Pizza</NavLink>

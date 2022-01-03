@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LandingPage from "./components/Landingpage/LandingPage";
 import OrderingOverview from "./components/Ordering/OrderingOverview";
@@ -10,27 +9,12 @@ import Pizza from "./components/Ordering/Pizza";
 import Pasta from "./components/Ordering/Pasta";
 import Dessert from "./components/Ordering/Dessert";
 import Drinks from "./components/Ordering/Drinks";
+import HeaderRoutes from "./components/HeaderRoutes";
 
 function App() {
-  // const current = window.location.pathname;
-  // this.props.navigate.reaplace("/reload");
-  // setTimeout(() => {
-  //   this.props.navigate.replace(current);
-  // });
-
-  // window.onload = function () {
-  //   if (!window.location.hash) {
-  //     window.location = window.location + "#loaded";
-  //     window.location.reload();
-  //   }
-  // };
-
-  // const navigate = useNavigate();
-  // navigate.go(0);
-
   return (
     <Wrapper>
-      <Header />
+      <HeaderRoutes />
       <Main>
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -43,6 +27,7 @@ function App() {
           <Route path="/getraenke" element={<Drinks />} />
         </Routes>
       </Main>
+
       <Footer />
     </Wrapper>
   );

@@ -3,9 +3,11 @@ import { BsFillTelephoneForwardFill as Phone } from "react-icons/bs";
 import { BsCart as Cart } from "react-icons/bs";
 import { BsDoorClosed as Door } from "react-icons/bs";
 import { IconContext } from "react-icons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-function Interaction({ OnShoppingCartButtonClick }) {
+function Interaction() {
+  const navigate = useNavigate();
+
   return (
     <Wrapper>
       <Iconstyle>
@@ -26,7 +28,11 @@ function Interaction({ OnShoppingCartButtonClick }) {
           }}
         >
           <Link to="/karte">
-            <Cart />
+            <Cart
+              onClick={() => {
+                navigate("/karte");
+              }}
+            />
           </Link>
         </IconContext.Provider>
       </Iconstyle>
