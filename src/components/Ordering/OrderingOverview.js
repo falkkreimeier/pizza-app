@@ -7,22 +7,22 @@ function OrderingOverview() {
     <Wrapper>
       <Image src={Pizza} alt="" />
       <LinkContainer>
-        <NavLink to="/vorspeisen">Appetizers</NavLink>
+        <NavLink to="/vorspeisen">Vorspeisen</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="/salate">Salads</NavLink>
+        <NavLink to="/salate">Salate</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="">Pizza</NavLink>
+        <NavLink to="/pizza">Pizza</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="">Pasta</NavLink>
+        <NavLink to="/pasta">Pasta</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="">Dessert</NavLink>
+        <NavLink to="/nachtisch">Nachtisch</NavLink>
       </LinkContainer>
       <LinkContainer>
-        <NavLink to="">Drinks</NavLink>
+        <NavLink to="/getraenke">Getränke</NavLink>
       </LinkContainer>
     </Wrapper>
   );

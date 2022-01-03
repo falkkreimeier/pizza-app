@@ -1,10 +1,20 @@
 import styled from "styled-components/macro";
 import { BiStoreAlt as Menu } from "react-icons/bi";
 import { IconContext } from "react-icons";
+import { BiChevronLeft as BackArrow } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
-function Header() {
+function HeaderToMain() {
   return (
     <Wrapper>
+      <Link to="/">
+        <BackArrowPosition>
+          <IconContext.Provider value={{ color: "white", size: "30px" }}>
+            <BackArrow />
+          </IconContext.Provider>
+        </BackArrowPosition>
+      </Link>
+
       <Text>Pizzaria Name</Text>
       <IconPosition>
         <IconContext.Provider
@@ -40,4 +50,9 @@ const IconPosition = styled.div`
   left: 180px;
 `;
 
-export default Header;
+const BackArrowPosition = styled.div`
+  position: relative;
+  left: 20px;
+`;
+
+export default HeaderToMain;
