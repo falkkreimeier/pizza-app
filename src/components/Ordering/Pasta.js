@@ -1,11 +1,11 @@
 import styled from "styled-components/macro";
 
-function Pasta() {
+function Pasta(props) {
   return (
     <>
       <TextContainer>
-        <Text>Gericht</Text>
-        <DescriptionText></DescriptionText>
+        <Text>{props.food}</Text>
+        <DescriptionText>{props.desciption}</DescriptionText>
       </TextContainer>
     </>
   );

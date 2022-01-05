@@ -24,7 +24,6 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route path="/" element={<LandingPage />} />
         <Route path="/karte" element={<OrderingOverview />} />
-
         <Route
           path="/vorspeisen"
           element={
@@ -47,7 +46,6 @@ function App() {
             </>
           }
         />
-
         <Route
           path="Baguettes"
           element={

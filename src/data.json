@@ -1,8 +1,8 @@
 {
   "Appetizers": [
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Vorspeise 1",
+      "description": "Beschreibung"
     },
     {
       "food": "Mozarella Sticks",
@@ -11,65 +11,63 @@
   ],
   "Baguettes": [
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Salami Baguette",
+      "description": "Italinische Baguette Salami"
     },
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Schinken Baguette",
+      "description": "Schinken, Käse, Tomate"
     }
   ],
   "Dessert": [
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Dessert1",
+      "description": "Beschreibung"
     },
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Dessert 2",
+      "description": "Beschreibung Bayleys"
     }
   ],
   "Drinks": [
     {
-      "drink": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Drink1",
+      "description": "Beschreibung"
     },
     {
-      "drink": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Drink2",
+      "description": "Beschreibung Bayleys"
     }
   ],
   "Pasta": [
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Pasta1",
+      "description": "Beschreibung"
     },
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Pasta2",
+      "description": "Beschreibung"
     }
   ], 
   "Pizza": [
+  
     {
-      "headline": "Pizza"
+      "food": "Pizza1",
+      "description": "Beschreibung"
     },
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
-    },
-    {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Pizza2",
+      "description": "Beschreibung"
     }
   ],
   "Salads": [
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Salat1",
+      "description": "Beschreibung"
     },
     {
-      "food": "Shot",
-      "description": "Wahnsinniger Bayleys"
+      "food": "Salat2",
+      "description": "Beschreibung"
     }
   ]
 }

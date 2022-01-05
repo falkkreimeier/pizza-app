@@ -1,11 +1,11 @@
 import styled from "styled-components/macro";
 
-function Baguettes() {
+function Baguettes(props) {
   return (
     <>
       <TextContainer>
-        <Text>Gericht</Text>
-        <DescriptionText></DescriptionText>
+        <Text>{props.food}</Text>
+        <DescriptionText>{props.description}</DescriptionText>
       </TextContainer>
     </>
   );
@@ -16,7 +16,7 @@ const TextContainer = styled.div`
   width: 95%;
   border-radius: 5px;
   background-color: white;
-  height: 50px;
+  height: 80px;
   padding: 15px;
 `;
 
