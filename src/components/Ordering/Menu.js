@@ -2,10 +2,11 @@ import styled from "styled-components/macro";
 import Pizza from "../Assets/Pizza-menue.jpeg";
 import { Link } from "react-router-dom";
 
-function OrderingOverview() {
+function Menu() {
   return (
     <>
       <Image src={Pizza} alt="" />
+      <Headline>Karte</Headline>
       <LinkContainer>
         <NavLink to="/vorspeisen">Vorspeisen</NavLink>
       </LinkContainer>
@@ -37,6 +38,10 @@ const Image = styled.img`
   object-fit: cover;
 `;
 
+const Headline = styled.h2`
+  text-align: center;
+`;
+
 const LinkContainer = styled.div`
   margin: 2px auto;
   width: 95%;
@@ -51,4 +56,4 @@ const NavLink = styled(Link)`
   color: black;
 `;
 
-export default OrderingOverview;
+export default Menu;

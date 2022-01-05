@@ -1,6 +1,7 @@
 import styled from "styled-components/macro";
 import { BiStoreAlt as Menu } from "react-icons/bi";
 import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -12,7 +13,9 @@ function Header() {
             size: "30px",
           }}
         >
-          <Menu />
+          <Link to="/einkaufswagen">
+            <Menu />
+          </Link>
         </IconContext.Provider>
       </IconPosition>
     </Wrapper>
