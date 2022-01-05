@@ -1,0 +1,73 @@
+{
+  "Appetizers": [
+    {
+      "food": "Vorspeise 1",
+      "description": "Beschreibung"
+    },
+    {
+      "food": "Mozarella Sticks",
+      "description": "knusprige Sticks gefüllt mit frischem Büffel-Mozarella"
+    }
+  ],
+  "Baguettes": [
+    {
+      "food": "Salami Baguette",
+      "description": "Italinische Baguette Salami"
+    },
+    {
+      "food": "Schinken Baguette",
+      "description": "Schinken, Käse, Tomate"
+    }
+  ],
+  "Dessert": [
+    {
+      "food": "Dessert1",
+      "description": "Beschreibung"
+    },
+    {
+      "food": "Dessert 2",
+      "description": "Beschreibung Bayleys"
+    }
+  ],
+  "Drinks": [
+    {
+      "food": "Drink1",
+      "description": "Beschreibung"
+    },
+    {
+      "food": "Drink2",
+      "description": "Beschreibung Bayleys"
+    }
+  ],
+  "Pasta": [
+    {
+      "food": "Pasta1",
+      "description": "Beschreibung"
+    },
+    {
+      "food": "Pasta2",
+      "description": "Beschreibung"
+    }
+  ], 
+  "Pizza": [
+  
+    {
+      "food": "Pizza1",
+      "description": "Beschreibung"
+    },
+    {
+      "food": "Pizza2",
+      "description": "Beschreibung"
+    }
+  ],
+  "Salads": [
+    {
+      "food": "Salat1",
+      "description": "Beschreibung"
+    },
+    {
+      "food": "Salat2",
+      "description": "Beschreibung"
+    }
+  ]
+}

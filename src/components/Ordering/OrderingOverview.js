@@ -13,6 +13,9 @@ function OrderingOverview() {
         <NavLink to="/salate">Salate</NavLink>
       </LinkContainer>
       <LinkContainer>
+        <NavLink to="/Baguettes">Baguettes</NavLink>
+      </LinkContainer>
+      <LinkContainer>
         <NavLink to="/pizza">Pizza</NavLink>
       </LinkContainer>
       <LinkContainer>
@@ -37,7 +40,7 @@ const Image = styled.img`
 `;
 
 const LinkContainer = styled.div`
-  margin: 0 auto;
+  margin: 2px auto;
   width: 95%;
   border-radius: 5px;
   background-color: white;

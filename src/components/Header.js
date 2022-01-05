@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 function Header() {
   return (
     <Wrapper>
-      <Text>Pizzaria Name</Text>
+      <Text>Pizzeria Name</Text>
       <IconPosition>
         <IconContext.Provider
           value={{
