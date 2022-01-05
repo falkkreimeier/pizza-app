@@ -1,0 +1,75 @@
+{
+  "Appetizers": [
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    },
+    {
+      "food": "Mozarella Sticks",
+      "description": "knusprige Sticks gefüllt mit frischem Büffel-Mozarella"
+    }
+  ],
+  "Baguettes": [
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    },
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    }
+  ],
+  "Dessert": [
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    },
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    }
+  ],
+  "Drinks": [
+    {
+      "drink": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    },
+    {
+      "drink": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    }
+  ],
+  "Pasta": [
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    },
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    }
+  ], 
+  "Pizza": [
+    {
+      "headline": "Pizza"
+    },
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    },
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    }
+  ],
+  "Salads": [
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    },
+    {
+      "food": "Shot",
+      "description": "Wahnsinniger Bayleys"
+    }
+  ]
+}

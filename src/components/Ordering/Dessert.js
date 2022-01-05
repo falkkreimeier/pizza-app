@@ -1,46 +1,22 @@
 import styled from "styled-components/macro";
-import PizzaImg from "../Assets/Pizza-menue.jpeg";
 
-function Dessert() {
+function Dessert(props) {
   return (
-    <Wrapper>
-      <Image src={PizzaImg} alt="" />
+    <>
       <TextContainer>
-        <Text>Nachtisch</Text>
+        <Text>{props.food}</Text>
+        <DescriptionText>{props.description}</DescriptionText>
       </TextContainer>
-      <TextContainer>
-        <Text>Nachtisch</Text>
-      </TextContainer>
-      <TextContainer>
-        <Text>Nachtisch</Text>
-      </TextContainer>
-      <TextContainer>
-        <Text>Nachtisch</Text>
-      </TextContainer>
-      <TextContainer>
-        <Text>Nachtisch</Text>
-      </TextContainer>
-      <TextContainer>
-        <Text>Nachtisch</Text>
-      </TextContainer>
-    </Wrapper>
+    </>
   );
 }
 
-const Wrapper = styled.section``;
-
-const Image = styled.img`
-  width: 100%;
-  height: 80px;
-  object-fit: cover;
-`;
-
 const TextContainer = styled.div`
-  margin: 0 auto;
+  margin: 2px auto;
   width: 95%;
   border-radius: 5px;
   background-color: white;
-  height: 50px;
+  height: 80px;
   padding: 15px;
 `;
 
@@ -48,4 +24,7 @@ const Text = styled.p`
   text-decoration: none;
   color: black;
 `;
+
+const DescriptionText = styled.p``;
+
 export default Dessert;
