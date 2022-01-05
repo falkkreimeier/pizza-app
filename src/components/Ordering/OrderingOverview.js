@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function OrderingOverview() {
   return (
-    <Wrapper>
+    <>
       <Image src={Pizza} alt="" />
       <LinkContainer>
         <NavLink to="/vorspeisen">Vorspeisen</NavLink>
@@ -27,11 +27,9 @@ function OrderingOverview() {
       <LinkContainer>
         <NavLink to="/getraenke">Getränke</NavLink>
       </LinkContainer>
-    </Wrapper>
+    </>
   );
 }
-
-const Wrapper = styled.section``;
 
 const Image = styled.img`
   width: 100%;
