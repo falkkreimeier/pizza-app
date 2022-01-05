@@ -5,6 +5,8 @@ function Footer() {
 }
 
 const Wrapper = styled.footer`
+  position: fixed;
+  bottom: 0;
   width: var(--app-width);
   background-color: black;
   color: white;

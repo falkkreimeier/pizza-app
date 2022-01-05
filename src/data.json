@@ -31,11 +31,11 @@
   ],
   "Drinks": [
     {
-      "food": "Drink1",
+      "drink": "Drink1",
       "description": "Beschreibung"
     },
     {
-      "food": "Drink2",
+      "drink": "Drink2",
       "description": "Beschreibung Bayleys"
     }
   ],

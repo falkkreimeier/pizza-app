@@ -28,11 +28,7 @@ function Interaction() {
           }}
         >
           <Link to="/karte">
-            <Cart
-              onClick={() => {
-                navigate("/karte");
-              }}
-            />
+            <Cart />
           </Link>
         </IconContext.Provider>
       </Iconstyle>
@@ -43,7 +39,9 @@ function Interaction() {
             size: "30px",
           }}
         >
-          <Door />
+          <Link to="/oeffnungszeiten">
+            <Door />
+          </Link>
         </IconContext.Provider>
       </Iconstyle>
     </Wrapper>

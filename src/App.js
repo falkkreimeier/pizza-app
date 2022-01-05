@@ -1,5 +1,5 @@
 import LandingPage from "./components/Landingpage/LandingPage";
-import OrderingOverview from "./components/Ordering/OrderingOverview";
+import Menu from "./components/Ordering/Menu";
 import { Routes, Route } from "react-router-dom";
 import Appetizers from "./components/Ordering/Appetizers";
 import AppetizersHeadline from "./components/Ordering/AppetizersHeadline";
@@ -16,6 +16,7 @@ import Drinks from "./components/Ordering/Drinks";
 import Layout from "./components/Layout";
 import Baguettes from "./components/Ordering/Baguettes";
 import BaguettesHeadline from "./components/Ordering/BaguettesHeadline";
+import Opening from "./components/Landingpage/Opening";
 import data from "./data.json";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/karte" element={<OrderingOverview />} />
+        <Route path="/karte" element={<Menu />} />
         <Route
           path="/vorspeisen"
           element={
@@ -101,6 +102,7 @@ function App() {
             </>
           }
         />
+        <Route path="/oeffnungszeiten" element={<Opening />} />
       </Route>
     </Routes>
   );
