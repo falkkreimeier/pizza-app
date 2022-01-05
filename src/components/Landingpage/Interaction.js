@@ -3,11 +3,9 @@ import { BsFillTelephoneForwardFill as Phone } from "react-icons/bs";
 import { BsCart as Cart } from "react-icons/bs";
 import { BsDoorClosed as Door } from "react-icons/bs";
 import { IconContext } from "react-icons";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-function Interaction() {
-  const navigate = useNavigate();
-
+function Interaction({ onClickPhone }) {
   return (
     <Wrapper>
       <Iconstyle>
@@ -17,7 +15,7 @@ function Interaction() {
             size: "30px",
           }}
         >
-          <Phone />
+          <Phone onClick={onClickPhone} />
         </IconContext.Provider>
       </Iconstyle>
       <Iconstyle>
