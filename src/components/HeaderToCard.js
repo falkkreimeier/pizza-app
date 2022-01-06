@@ -22,7 +22,9 @@ function HeaderToCard() {
             size: "30px",
           }}
         >
-          <Menu />
+          <Link to="/einkaufswagen">
+            <Menu />
+          </Link>
         </IconContext.Provider>
       </IconPosition>
     </Wrapper>

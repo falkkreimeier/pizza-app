@@ -6,6 +6,9 @@ function Appetizers(props) {
       <TextContainer>
         <Text>{props.food}</Text>
         <DescriptionText>{props.description}</DescriptionText>
+        <PriceContainer>
+          <Price>{props.price}</Price>
+        </PriceContainer>
       </TextContainer>
     </>
   );
@@ -26,5 +29,19 @@ const Text = styled.p`
 `;
 
 const DescriptionText = styled.p``;
+
+const PriceContainer = styled.div`
+  position: relative;
+  left: 260px;
+  bottom: 15px;
+  width: 60px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  border-radius: 5px;
+`;
+
+const Price = styled.p`
+  text-align: center;
+`;
 
 export default Appetizers;

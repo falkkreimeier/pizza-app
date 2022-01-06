@@ -31,7 +31,11 @@ function App() {
             <>
               <AppetizersHeadline />,
               {data.Appetizers.map((props) => (
-                <Appetizers food={props.food} description={props.description} />
+                <Appetizers
+                  food={props.food}
+                  description={props.description}
+                  price={props.price}
+                />
               ))}
             </>
           }
