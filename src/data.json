@@ -2,11 +2,13 @@
   "Appetizers": [
     {
       "food": "Vorspeise 1",
-      "description": "Beschreibung"
+      "description": "Beschreibung",
+      "price": "4,50€"
     },
     {
       "food": "Mozarella Sticks",
-      "description": "knusprige Sticks gefüllt mit frischem Büffel-Mozarella"
+      "description": "Beschreibung",
+      "price": "5,00€"
     }
   ],
   "Baguettes": [
